@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 * {
   cursor: none;
 }
@@ -10,12 +11,11 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-image: url(wallpaper.png);
+  background-image: url(/images/wallpaper.png);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 .pacman{
   width: 6rem;
@@ -35,7 +35,7 @@ html, body {
 }
 
 .pacman-bottom{
-background-color: #F0EE35;
+  background-color: #F0EE35;
   height: 45px;
   width: 90px;
   border-radius: 0 0 100px 100px;
@@ -45,8 +45,8 @@ background-color: #F0EE35;
 @keyframes nibble {
 	0%  {transform: rotate(0deg);}
 	50%{transform: rotate(-35deg);}
-  
 }
+
 @keyframes gobble {
 	0%  {transform: rotate(0deg);}
   50%{transform: rotate(35deg);}	
@@ -62,7 +62,7 @@ background-color: #F0EE35;
 }
 
 .cursor.pink {
-  background-image: url(pink.svg);
+  background-image: url(/images/pink.svg);
   transform: scale(0.7);
   transition: 1s ease-out;
   top: 0;
@@ -71,7 +71,7 @@ background-color: #F0EE35;
 }
 
 .cursor.red {
-  background-image: url(red.svg);
+  background-image: url(/images/red.svg);
   transform: scale(0.7);
   transition: 1s ease-in-out;
   bottom: 0;
@@ -79,7 +79,7 @@ background-color: #F0EE35;
 }
 
 .cursor.green {
-  background-image: url(green.svg);
+  background-image: url(/images/green.svg);
   transform: scale(0.7);
   transition: 1s cubic-bezier(0.84,-0.79, 0.04, 1.9);
   top: 0;
@@ -87,11 +87,9 @@ background-color: #F0EE35;
   z-index: 1001;
 }
 
-
 .cursor.yellow {
-  background-image: url(yellow.svg);
+  background-image: url(/images/yellow.svg);
   transform: scale(0.7);
   transition: 1s linear;
   bottom: 0;
   right: 0;} 
-
