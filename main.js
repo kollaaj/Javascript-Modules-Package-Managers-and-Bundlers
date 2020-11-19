@@ -1,5 +1,2 @@
-import {cursors, mouseCursor} from "./pacmodule.js";
-
-
-cursors();
-mouseCursor();
+import pacmodule from "./pacmodule.js";
+pacmodule.init();
