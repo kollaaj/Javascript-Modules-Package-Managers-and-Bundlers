@@ -1,0 +1,19 @@
+{
+  "name": "pacman-cursor",
+  "version": "1.0.4",
+  "description": "Pacman has eaten the cursor and the ghosts are chasing him",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kollaaj/Javascript-Modules-Package-Managers-and-Bundlers.git"
+  },
+  "author": "Kollaaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kollaaj/Javascript-Modules-Package-Managers-and-Bundlers/issues"
+  },
+  "homepage": "https://github.com/kollaaj/Javascript-Modules-Package-Managers-and-Bundlers#readme"
+}

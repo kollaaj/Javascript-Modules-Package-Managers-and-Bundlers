@@ -47,7 +47,7 @@
 }
 
 .ghost.pink {
-  background-image: url("/images/pink.svg");
+  background-image: url("./images/pink.svg");
   transform: scale(0.7);
   transition: 1s ease-out;
   top: 0;
@@ -56,7 +56,7 @@
 }
 
 .ghost.red {
-  background-image: url("/images/red.svg");
+  background-image: url("./images/red.svg");
   transform: scale(0.7);
   transition: 1s ease-in-out;
   bottom: 0;
@@ -64,7 +64,7 @@
 }
 
 .ghost.green {
-  background-image: url("/images/green.svg");
+  background-image: url("./images/green.svg");
   transform: scale(0.7);
   transition: 1s cubic-bezier(0.84,-0.79, 0.04, 1.9);
   top: 0;
@@ -73,7 +73,7 @@
 }
 
 .ghost.yellow {
-  background-image: url("/images/yellow.svg");
+  background-image: url("./images/yellow.svg");
   transform: scale(0.7);
   transition: 1s linear;
   bottom: 0;

@@ -1,0 +1,18 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "prod": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pacman-cursor": "^1.0.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
